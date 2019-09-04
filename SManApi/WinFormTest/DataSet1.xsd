@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ffServManConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ffServManConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WinFormTest.Properties.Settings.GlobalReference.Default.ffServManConnectionString" Provider="NexusDB.ADOProvider" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="reparatorTableAdapter" GeneratorDataComponentClassName="reparatorTableAdapter" Name="reparator" UserDataComponentName="reparatorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ffServManConnectionString (Settings)" DbObjectName="ffServMan.reparator" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select  *
+from reparator</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="reparator" DataSetColumn="reparator" />
+              <Mapping SourceColumn="reg" DataSetColumn="reg" />
+              <Mapping SourceColumn="regdat" DataSetColumn="regdat" />
+              <Mapping SourceColumn="uppdaterat" DataSetColumn="uppdaterat" />
+              <Mapping SourceColumn="uppdat_dat" DataSetColumn="uppdat_dat" />
+              <Mapping SourceColumn="rep_kat_id" DataSetColumn="rep_kat_id" />
+              <Mapping SourceColumn="visas" DataSetColumn="visas" />
+              <Mapping SourceColumn="AnvID" DataSetColumn="AnvID" />
+              <Mapping SourceColumn="pwd" DataSetColumn="pwd" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="reparator" msprop:Generator_TableClassName="reparatorDataTable" msprop:Generator_TableVarName="tablereparator" msprop:Generator_TablePropName="reparator" msprop:Generator_RowDeletingName="reparatorRowDeleting" msprop:Generator_RowChangingName="reparatorRowChanging" msprop:Generator_RowEvHandlerName="reparatorRowChangeEventHandler" msprop:Generator_RowDeletedName="reparatorRowDeleted" msprop:Generator_UserTableName="reparator" msprop:Generator_RowChangedName="reparatorRowChanged" msprop:Generator_RowEvArgName="reparatorRowChangeEvent" msprop:Generator_RowClassName="reparatorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reparator" msprop:Generator_ColumnVarNameInTable="columnreparator" msprop:Generator_ColumnPropNameInRow="reparator" msprop:Generator_ColumnPropNameInTable="reparatorColumn" msprop:Generator_UserColumnName="reparator" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reg" msprop:Generator_ColumnVarNameInTable="columnreg" msprop:Generator_ColumnPropNameInRow="reg" msprop:Generator_ColumnPropNameInTable="regColumn" msprop:Generator_UserColumnName="reg" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="regdat" msprop:Generator_ColumnVarNameInTable="columnregdat" msprop:Generator_ColumnPropNameInRow="regdat" msprop:Generator_ColumnPropNameInTable="regdatColumn" msprop:Generator_UserColumnName="regdat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="uppdaterat" msprop:Generator_ColumnVarNameInTable="columnuppdaterat" msprop:Generator_ColumnPropNameInRow="uppdaterat" msprop:Generator_ColumnPropNameInTable="uppdateratColumn" msprop:Generator_UserColumnName="uppdaterat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="uppdat_dat" msprop:Generator_ColumnVarNameInTable="columnuppdat_dat" msprop:Generator_ColumnPropNameInRow="uppdat_dat" msprop:Generator_ColumnPropNameInTable="uppdat_datColumn" msprop:Generator_UserColumnName="uppdat_dat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="rep_kat_id" msprop:Generator_ColumnVarNameInTable="columnrep_kat_id" msprop:Generator_ColumnPropNameInRow="rep_kat_id" msprop:Generator_ColumnPropNameInTable="rep_kat_idColumn" msprop:Generator_UserColumnName="rep_kat_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="visas" msprop:Generator_ColumnVarNameInTable="columnvisas" msprop:Generator_ColumnPropNameInRow="visas" msprop:Generator_ColumnPropNameInTable="visasColumn" msprop:Generator_UserColumnName="visas" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AnvID" msprop:Generator_ColumnVarNameInTable="columnAnvID" msprop:Generator_ColumnPropNameInRow="AnvID" msprop:Generator_ColumnPropNameInTable="AnvIDColumn" msprop:Generator_UserColumnName="AnvID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pwd" msprop:Generator_ColumnVarNameInTable="columnpwd" msprop:Generator_ColumnPropNameInRow="pwd" msprop:Generator_ColumnPropNameInTable="pwdColumn" msprop:Generator_UserColumnName="pwd" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

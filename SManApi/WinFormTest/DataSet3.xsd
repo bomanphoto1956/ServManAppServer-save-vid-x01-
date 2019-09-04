@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ffServManConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ffServManConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WinFormTest.Properties.Settings.GlobalReference.Default.ffServManConnectionString" Provider="NexusDB.ADOProvider" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="artikelTableAdapter" GeneratorDataComponentClassName="artikelTableAdapter" Name="artikel" UserDataComponentName="artikelTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ffServManConnectionString (Settings)" DbObjectName="ffServMan.artikel" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        artnr
+FROM            ffServMan.artikel</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="artnr" DataSetColumn="artnr" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3" msprop:Generator_UserDSName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="artikel" msprop:Generator_TableClassName="artikelDataTable" msprop:Generator_TableVarName="tableartikel" msprop:Generator_TablePropName="artikel" msprop:Generator_RowDeletingName="artikelRowDeleting" msprop:Generator_RowChangingName="artikelRowChanging" msprop:Generator_RowEvHandlerName="artikelRowChangeEventHandler" msprop:Generator_RowDeletedName="artikelRowDeleted" msprop:Generator_UserTableName="artikel" msprop:Generator_RowChangedName="artikelRowChanged" msprop:Generator_RowEvArgName="artikelRowChangeEvent" msprop:Generator_RowClassName="artikelRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="artnr" msprop:Generator_ColumnVarNameInTable="columnartnr" msprop:Generator_ColumnPropNameInRow="artnr" msprop:Generator_ColumnPropNameInTable="artnrColumn" msprop:Generator_UserColumnName="artnr">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:artikel" />
+      <xs:field xpath="mstns:artnr" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

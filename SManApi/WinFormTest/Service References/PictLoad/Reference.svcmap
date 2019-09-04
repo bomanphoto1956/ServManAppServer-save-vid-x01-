@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="be043b2d-df26-4c80-98b8-accb86febb0b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52308/PictLoad.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PictLoad.xsd" MetadataType="Schema" ID="54756ad4-a0e5-40b9-b768-3f1181e4e806" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?xsd=xsd1" />
+    <MetadataFile FileName="PictLoad1.xsd" MetadataType="Schema" ID="6fb83872-6741-403c-b449-e43e64d02ffb" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?xsd=xsd2" />
+    <MetadataFile FileName="PictLoad.disco" MetadataType="Disco" ID="c84169d7-e599-4ae9-8831-e5e5a2a9870e" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?disco" />
+    <MetadataFile FileName="PictLoad2.xsd" MetadataType="Schema" ID="ec439657-bcdb-4d26-9d69-6555714c010d" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?xsd=xsd0" />
+    <MetadataFile FileName="PictLoad.wsdl" MetadataType="Wsdl" ID="e524662f-7103-4b28-aa8f-a6d983beacd2" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?wsdl" />
+    <MetadataFile FileName="PictLoad3.xsd" MetadataType="Schema" ID="486b4e2a-b538-4cf3-9733-f9bb22485f33" SourceId="1" SourceUrl="http://localhost:52308/PictLoad.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

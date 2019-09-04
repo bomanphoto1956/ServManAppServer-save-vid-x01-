@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a7d60311-d40a-452f-a0f0-aaa5b4d22a4a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SmanAPI/SmServ.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SmServ.disco" MetadataType="Disco" ID="084e842a-80a8-4314-b7a0-8a7eed50b3c7" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?disco" />
+    <MetadataFile FileName="SmServ.xsd" MetadataType="Schema" ID="c49410d8-40ea-4154-a96b-7bc7a10a65ab" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?xsd=xsd1" />
+    <MetadataFile FileName="SmServ1.xsd" MetadataType="Schema" ID="f9e7c395-615a-4fe9-b531-f09187c8b577" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?xsd=xsd3" />
+    <MetadataFile FileName="SmServ.wsdl" MetadataType="Wsdl" ID="c357b634-e936-4e25-89e4-fb65a0abe808" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?wsdl" />
+    <MetadataFile FileName="SmServ2.xsd" MetadataType="Schema" ID="815adba2-ba2d-48ea-8ff0-d531d31d5f7d" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?xsd=xsd0" />
+    <MetadataFile FileName="SmServ3.xsd" MetadataType="Schema" ID="06384815-4904-4111-afbf-5a9809e839aa" SourceId="1" SourceUrl="http://localhost/SmanAPI/SmServ.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

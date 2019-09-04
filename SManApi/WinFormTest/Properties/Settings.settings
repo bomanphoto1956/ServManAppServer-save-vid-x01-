@@ -1,0 +1,14 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinFormTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ffServManConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Server=127.0.0.1;Database=ffServMan;Port=16000;Native=True;Embedded=False;Username=;Password=;Timeout=10000;BlockReadSize=0;NativeTransportType=TCP/IPV4;SecureTransportKey=&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;NexusDB.ADOProvider&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Server=127.0.0.1;Database=ffServMan;Port=16000;Native=True;Embedded=False;Username=;Password=;Timeout=10000;BlockReadSize=0;NativeTransportType=TCP/IPV4;SecureTransportKey=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
